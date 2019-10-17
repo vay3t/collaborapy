@@ -26,7 +26,7 @@ class S(BaseHTTPRequestHandler):
         print("-"*50)
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)
-        print("{0} {1} {2}\n{3}\n{4}\n".format(str(self.command), str(self.path),
+        print("{0} {1} {2}\n{3}{4}\n".format(str(self.command), str(self.path),
                 str(self.request_version), str(self.headers), post_data.decode('utf-8')))
         self._set_response()
 
