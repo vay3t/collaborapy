@@ -3,7 +3,7 @@ Simple HTTP Collaborator (Inspired in Burp https://portswigger.net/burp/document
 
 # Usage
 ```
-sudo python collaborapy.py 80
+sudo python3 collaborapy.py 80
 ```
 
 # Note:
