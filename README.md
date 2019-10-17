@@ -5,3 +5,6 @@ Simple HTTP Collaborator (Inspired in Burp https://portswigger.net/burp/document
 ```
 sudo python collaborapy.py 80
 ```
+
+# Note:
+You can use with Ngrok --> https://ngrok.com/
