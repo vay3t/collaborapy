@@ -2,7 +2,7 @@
 """
 Very simple HTTP server in python for logging requests
 Usage::
-    ./collaborapy.py [<port>]
+    python3 collaborapy.py [<port>]
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
